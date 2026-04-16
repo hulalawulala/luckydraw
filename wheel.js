@@ -61,8 +61,8 @@ function initWheel() {
     winner = participants[Math.floor(Math.random() * participants.length)];
   }
 
-  // Cap visual slices at 1000
-  const MAX_VISUAL_SLICES = 1000;
+  // Cap visual slices at 3000
+  const MAX_VISUAL_SLICES = 3000;
   
   if (participants.length <= MAX_VISUAL_SLICES) {
     visualParticipants = [...participants];
